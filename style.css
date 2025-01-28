@@ -14,6 +14,7 @@ html{
 
 p{
     color:rgb(85,85,85);
+    size: 1.2rem;
 }
 
 a, .btn{
@@ -252,6 +253,13 @@ section{
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+.about-containers-1{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
 
 .about-details-container{
     justify-content: center;
@@ -392,7 +400,7 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 12vh;
+    /* margin: 12vh; */
   }
 
   .contact-info-upper-container{

@@ -6,9 +6,17 @@
     .about-containers {
       flex-wrap: wrap;
     }
+    .about-containers-1{
+      display: flex;
+      flex-wrap: wrap;
+    }
     #contact,
     #projects {
       height: fit-content;
+    }
+
+    #contact{
+      height: 70vh;
     }
   }
   
