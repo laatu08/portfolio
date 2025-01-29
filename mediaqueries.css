@@ -18,6 +18,9 @@
     #contact{
       height: 70vh;
     }
+    #experience .details-container-1{
+      height: 450px;
+    }
   }
   
   @media screen and (max-width: 1200px) {
@@ -52,6 +55,14 @@
     }
     .about-containers {
       margin-top: 0;
+    }
+
+    #skill .details-container{
+      height: 700px;
+    }
+
+    #experience .details-container-1{
+      height: 576px;
     }
   }
   
@@ -108,5 +119,12 @@
     }
     .text-container {
       text-align: justify;
+    }
+    #skill .details-container{
+      height: 700px;
+    }
+
+    #experience .details-container-1{
+      height: 576px;
     }
   }
