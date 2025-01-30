@@ -246,6 +246,7 @@ section{
 
 #about{
     position: relative;
+    /* height: auto; */
 }
 
 .about-containers{
@@ -323,6 +324,7 @@ section{
 
 #experience{
     position: relative;
+    height: auto;
 }
 
 .experience-sub-title{
@@ -368,6 +370,7 @@ article .icon{
 
 #projects {
     position: relative;
+    height: auto;
   }
   
   .color-container {
@@ -402,6 +405,7 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     /* margin: 12vh; */
+    /* height: auto; */
   }
 
   .contact-info-upper-container{
